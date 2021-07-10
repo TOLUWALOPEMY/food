@@ -1,0 +1,49 @@
+/* Presets */
+body {
+  position:relative;
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.theme-background, .theme-color {
+  background: #FA9E0D;
+}
+.theme-black {
+  color: #333333;
+}
+.theme-grey {
+  color: #4C4C4C;
+}
+
+.loader {
+  border-top-color: #FA9E0D;
+  -webkit-animation: spinner 1.5s linear infinite;
+  animation: spinner 1.5s linear infinite;
+}
+
+@-webkit-keyframes spinner {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spinner {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Others */
+
+.container {
+  height: 100vh;
+  width: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 300px;
+  border: 2px solid #FA9E0D;
+}
