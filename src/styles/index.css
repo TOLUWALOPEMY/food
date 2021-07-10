@@ -43,7 +43,13 @@ body {
   align-items: center;
 }
 
-.card {
-  width: 300px;
-  border: 2px solid #FA9E0D;
+.card-img, .card {
+  border-radius: 0 35px 0 35px;
+  border: 1px solid white;
+}
+
+.card-btn {
+  border-radius: 15px 0 0 0;
+  font-size: 4.3rem;
+  border: 1px solid #FA9E0D;
 }
